@@ -1,0 +1,26 @@
+menu "Firmware mode"
+
+choice APP_FIRMWARE_MODE
+    prompt "Application to build"
+    default APP_MODE_ECG_BLE
+    help
+        Build the integrated ADS1292R ECG/BLE + BMI270 firmware by default, or
+        select the standalone BMI270 USB validation firmware. Only one app_main
+        is compiled.
+
+config APP_MODE_BMI270_USB
+    bool "BMI270 standalone validation (USB only, no radio)"
+    help
+        Excludes all ECG, BLE and battery acquisition sources from main.
+        The standalone app does not initialize BLE even if Bluetooth remains enabled.
+
+config APP_MODE_ECG_BLE
+    bool "Integrated ADS1292R ECG / respiration / BLE + BMI270"
+    select BT_ENABLED
+    help
+        Builds the ADS1292R ECG/respiration, BLE, battery ADC and BMI270 tasks.
+        The choice enables Bluetooth; the default sdkconfig selects NimBLE.
+
+endchoice
+
+endmenu
