@@ -1,6 +1,16 @@
+# ECG-H2：Open-source electrocardiogram, respiratory and body movement monitoring chest patch
+Here is BG9PQV. Today I’d like to introduce a project I’ve been working on for quite some time: an ECG chest patch.
+The project initially used the BMD101, but after I accidentally burned the chip, it was shelved, and it was not until last summer that I resumed it and switched to the ADS1292R. In June this year, I completed the initial driver and the most basic functional verification.
+During this year’s summer vacation, I applied for Spark Program and began turning it into a complete ECG chest patch.
+In terms of functionality, it can not only acquire ECG signals, but also work with a BMI270 inertial sensor to record data related to body movement and chest-wall motion. It serves as a validation platform for ECG algorithms and supports research into the relationships among ECG, respiration and physical activity. 
+At present, the ECG chest patch has achieved the following: acquiring changes in thoracic impedance, single-lead ECG signals, and simultaneously recording six-axis Inertial data
+The device can now transmit data stably via Bluetooth and connect to a computer or other terminal for real-time reception and recording.
+Please note: it is currently an open-source hardware and algorithm-validation platform. If you need to use my device for data collection, or use the collected data for algorithm training or public research, please contact me in advance and obtain my consent.
+
 # ECG-H2：开源心电、呼吸与体动监测胸贴
 演示介绍视频：https://www.bilibili.com/video/BV1TTH969EQR/
-代码地址：https://github.com/gitgeeg/ECG-chest-patch
+
+立创硬件开源地址：https://oshwhub.com/git-key/project_arvzjdvd
 
 ![0188d3509adb8abb30c0b4621130c685.jpg](https://image.lceda.cn/oshwhub/pullImage/86636d7a27474c52992cc9654e1630a5.jpg)
 
