@@ -11,7 +11,8 @@ Please note: it is currently an open-source hardware and algorithm-validation pl
 演示介绍视频：https://www.bilibili.com/video/BV1TTH969EQR/
 
 立创硬件开源地址：https://oshwhub.com/git-key/project_arvzjdvd
-![实物图]((https://github.com/gitgeeg/ECG-chest-patch/blob/main/86636d7a27474c52992cc9654e1630a5.webp)
+
+![实物图](https://github.com/gitgeeg/ECG-chest-patch/blob/main/86636d7a27474c52992cc9654e1630a5.webp)
 
 **ADS1292R + ESP32-H2 + BMI270｜蓝牙实时广播｜**
 
@@ -66,7 +67,7 @@ BMI270 优先使用 GPIO10 数据就绪中断，等待 60 ms 超时后允许轮�
 
 ## 四、本地软件功能
 
-![image.png](https://image.lceda.cn/oshwhub/pullImage/51c0e9c46b314c7cbbd0615d50d7ce07.png)
+![image.png](https://github.com/gitgeeg/ECG-chest-patch/blob/main/51c0e9c46b314c7cbbd0615d50d7ce07.webp)
 ### 实时波形与分析
 
 - 实时显示 ECG 和呼吸波形，标记 R 波与呼吸峰。
