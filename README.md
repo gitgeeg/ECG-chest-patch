@@ -11,8 +11,7 @@ Please note: it is currently an open-source hardware and algorithm-validation pl
 演示介绍视频：https://www.bilibili.com/video/BV1TTH969EQR/
 
 立创硬件开源地址：https://oshwhub.com/git-key/project_arvzjdvd
-
-实物图(https://github.com/gitgeeg/ECG-chest-patch/blob/main/86636d7a27474c52992cc9654e1630a5.webp)
+![实物图]((https://github.com/gitgeeg/ECG-chest-patch/blob/main/86636d7a27474c52992cc9654e1630a5.webp)
 
 **ADS1292R + ESP32-H2 + BMI270｜蓝牙实时广播｜**
 
