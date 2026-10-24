@@ -12,9 +12,8 @@ Please note: it is currently an open-source hardware and algorithm-validation pl
 
 立创硬件开源地址：https://oshwhub.com/git-key/project_arvzjdvd
 
-![0188d3509adb8abb30c0b4621130c685.jpg](https://image.lceda.cn/oshwhub/pullImage/86636d7a27474c52992cc9654e1630a5.jpg)
+实物图(https://github.com/gitgeeg/ECG-chest-patch/blob/main/86636d7a27474c52992cc9654e1630a5.webp)
 
-![dd4867eabea86a469a0a4f67158c13f6.jpg](https://image.lceda.cn/oshwhub/pullImage/c3f04779961b46c5a700454d898a32ec.jpg)
 **ADS1292R + ESP32-H2 + BMI270｜蓝牙实时广播｜**
 
 本项目面向便携、长时间生理信号采集，设计以 PI（聚酰亚胺）柔性电路板为载体的心电呼吸监测胸贴。ADS1292R 负责单导联心电与阻抗呼吸信号采集，BMI270 提供加速度、角速度及芯片内部温度，ESP32-H2 通过蓝牙 BLE 向电脑回传数据，并接收采集控制和寄存器配置命令。
